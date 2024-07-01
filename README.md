@@ -5,15 +5,6 @@ ClickEngine is a full-featured, no-code, open-source game development software. 
 #open the netlify link here
 [ClickEngine-Netlify](https://6681a1a8fab9d0611bb7b231--polite-pixie-86e8ff.netlify.app/)
 
-## Getting started
-
-| ❔ I want to...                 | 🚀 What to do                                                                                                                                                     |
-| ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Download ClickEngine to make games | Go to [ClickEngine website](https://ClickEngine.io) to download the app!                                                                                                |
-| Contribute to the editor        | Download [Node.js] and follow this [README](newIDE/README.md).                                                                                                    |
-| Create/improve an extension     | Download [Node.js] and follow this [README](newIDE/README-extensions.md).                                                                                         |
-| Help to translate ClickEngine      | Go on the [ClickEngine project on Crowdin](https://crowdin.com/project/ClickEngine) or translate [in-app tutorials](https://github.com/ClickEngineApp/ClickEngine-tutorials). |
-
 ## Overview of the architecture
 
 | Directory     | ℹ️ Description                                                                                    |
