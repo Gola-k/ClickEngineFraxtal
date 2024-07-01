@@ -2,7 +2,7 @@
 
 ClickEngine is a full-featured, no-code, open-source game development software. You can build games for mobile, desktop and the web. ClickEngine is fast and easy to use: the game logic is built up using an intuitive and powerful event-based system.
 
-#open the netlify link here
+## Open the netlify link here
 [ClickEngine-Netlify](https://6681a1a8fab9d0611bb7b231--polite-pixie-86e8ff.netlify.app/)
 
 ## Overview of the architecture
