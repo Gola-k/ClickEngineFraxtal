@@ -187,7 +187,7 @@ const GameCard = ({ nft }) => {
     setError(null);
 
     try {
-      const response = await fetch('https://game-engine.chainbros.xyz/play', {
+      const response = await fetch('http://localhost:3000/play', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(url),
@@ -210,7 +210,7 @@ const GameCard = ({ nft }) => {
           if (newWindow.closed) {
             clearInterval(checkWindowClosed);
             // console.log("i was here")
-            await fetch('https://game-engine.chainbros.xyz/delete-folder', {
+            await fetch('http://localhost:3000/delete-folder', {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json',
