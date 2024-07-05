@@ -169,18 +169,18 @@ export const archiveFiles = async ({
                     formData.append('file', blob);
                     console.log("formdata ----->>>>>>>",formData)
                 
-                    fetch('https://game-engine.chainbros.xyz/', {
+                    fetch('https://game-engine.chainbros.xyz/upload', {
                         method: 'POST',
                         body: formData
                     })
                     .then(response => response.text())
                     .then(port => {
-                        const serverUrl = "https://game-engine.chainbros.xyz/";
+                        const serverUrl = "https://game-engine.chainbros.xyz/preview-content";
                         const newWindow = window.open(serverUrl, '_blank');
                         const checkWindowClosed = setInterval(async () => {
                           if (newWindow.closed) {
                             clearInterval(checkWindowClosed);
-                            await fetch('https://game-engine.chainbros.xyz/',/* {
+                            await fetch('https://game-engine.chainbros.xyz/delete-temp',/* {
                               method: 'POST',
                               headers: {
                                 'Content-Type': 'application/json',
