@@ -169,18 +169,18 @@ export const archiveFiles = async ({
                     formData.append('file', blob);
                     console.log("formdata ----->>>>>>>",formData)
                 
-                    fetch('https://node.techsteck.com/upload', {
+                    fetch('https://game-engine.chainbros.xyz/', {
                         method: 'POST',
                         body: formData
                     })
                     .then(response => response.text())
                     .then(port => {
-                        const serverUrl = "https://node.techsteck.com/preview-content";
+                        const serverUrl = "https://game-engine.chainbros.xyz/";
                         const newWindow = window.open(serverUrl, '_blank');
                         const checkWindowClosed = setInterval(async () => {
                           if (newWindow.closed) {
                             clearInterval(checkWindowClosed);
-                            await fetch('https://node.techsteck.com/delete-temp',/* {
+                            await fetch('https://game-engine.chainbros.xyz/',/* {
                               method: 'POST',
                               headers: {
                                 'Content-Type': 'application/json',

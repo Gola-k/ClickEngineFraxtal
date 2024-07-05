@@ -156,7 +156,7 @@ app.post('/upload', upload.single('file'), (req, res) => {
     // });
     // res.send(`Serving extracted files with npx serve on port ...`);
 
-    res.send(`https://node.techsteck.com/preview-content`); // Replace with actual URL
+    res.send(`https://game-engine.chainbros.xyz/`); // Replace with actual URL
   });
 
 
@@ -186,7 +186,7 @@ app.post("/play",async (req,res)=>{
     } catch (error) {
         res.status(404)
     }finally{
-      res.send(`https://node.techsteck.com/folder-content/${fileName}`); 
+      res.send(`https://game-engine.chainbros.xyz/`); 
     }
 })
 
