@@ -31,4 +31,4 @@ Games exported with ClickEngine are based on the GDevelop game engine (see `Core
 
 [node.js]: https://nodejs.org
 
-### Credits for Game Engine: GDevelop
+### Credits for GDJS Game Engine: GDevelop
